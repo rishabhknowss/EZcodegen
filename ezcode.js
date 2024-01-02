@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 const fs = require('fs');
+const path = require('path');
 const cli = require('cli');
 const dotenv = require('dotenv');
 const { GoogleGenerativeAI } = require("@google/generative-ai");
@@ -9,8 +10,9 @@ dotenv.config();
 const genAI = new GoogleGenerativeAI(process.env.API_KEY);
 
 async function generateCode(fileContent, prompt) {
-    const defaultPrompt = "no unnecessary comments. Keep the latest configurations.";
-    const combinedPrompt = `${fileContent}\n${prompt}\n${defaultPrompt}`;
+    const defaultPrompt = "You are writing into the file so make the code go to production, no unnecessary comments. Keep the latest configurations.";
+    const combinedPrompt = `${fileContent}\n${defaultPrompt}\n${prompt}`;
+
     const model = genAI.getGenerativeModel({ model: "gemini-pro" });
     const result = await model.generateContent(combinedPrompt);
     const response = await result.response;
