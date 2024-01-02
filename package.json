@@ -1,6 +1,6 @@
 {
   "name": "coderai",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A cli tool for debugging and generating code",
   "main": "coderai.js",
   "scripts": {
