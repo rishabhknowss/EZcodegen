@@ -1,3 +1,4 @@
+![CoderAI Logo](coderai.png)
 
 # coderai
 
