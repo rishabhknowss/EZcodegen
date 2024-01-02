@@ -1,5 +1,3 @@
-<img src="coderai.png" width = "100px" height = "100px" alt="logo">
-
 # coderai
 
 coderai is a command-line tool for generating and debugging code using Google Generative AI
