@@ -5,7 +5,7 @@ EZcodegen is a command-line tool for generating and debugging code using Google 
 ## Installation
 
 ```
-npm install ezcodegen
+npm install @rishabhknows/ezcodegen
 ```
 
 ## Setup

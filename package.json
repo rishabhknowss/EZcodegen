@@ -1,5 +1,5 @@
 {
-  "name": "EZcodegen",
+  "name": "@rishabhknows/ezcodegen",
   "version": "1.0.3",
   "description": "A cli tool for debugging and generating code",
   "main": "ezcodegen.js",
