@@ -1,13 +1,13 @@
 {
-  "name": "EZcode",
+  "name": "SnapGen",
   "version": "1.0.0",
   "description": "A cli tool for debugging and generating code",
-  "main": "ezcode.js",
+  "main": "snapgen.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "ezcode": "./ezcode.js"
+    "snapgen": "./snapgen.js"
   },
   "keywords": [
     "cli",
