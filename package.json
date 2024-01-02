@@ -1,13 +1,13 @@
 {
-  "name": "coderai",
-  "version": "1.0.2",
+  "name": "EZcodegen",
+  "version": "1.0.3",
   "description": "A cli tool for debugging and generating code",
-  "main": "coderai.js",
+  "main": "ezcodegen.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "coderai": "./coderai.js"
+    "ezcodegen": "./ezcodegen.js"
   },
   "keywords": [
     "cli",
