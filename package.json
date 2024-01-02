@@ -1,13 +1,13 @@
 {
-  "name": "SnapGen",
+  "name": "coderai",
   "version": "1.0.0",
   "description": "A cli tool for debugging and generating code",
-  "main": "snapgen.js",
+  "main": "coderai.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "snapgen": "./snapgen.js"
+    "coderai": "./coderai.js"
   },
   "keywords": [
     "cli",
