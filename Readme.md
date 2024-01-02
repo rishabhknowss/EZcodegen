@@ -1,4 +1,4 @@
-![CoderAI Logo](coderai.png)
+<img src="coderai.png" width = "100px" height = "100px" alt="logo">
 
 # coderai
 
