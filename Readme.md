@@ -25,3 +25,9 @@ Add filename to `edit/write` and prompt `what to edit/write`
 ```
 npx ezcodegen -f "index.js" -p "create a simple express server"
 ```
+## Getting Started
+
+https://github.com/rishabhknowss/EZcodegen/assets/97790876/d4b41d93-464a-45ba-b9a6-948720be9bfd
+
+
+
